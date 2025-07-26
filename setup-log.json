@@ -1,9 +1,7 @@
 {
-  "service_id": "ai-art-box-api",
+  "service_id": "ai-art-box-generator",
   "service_name": "AI Art Box",
-  "domain": "https://ai-art-box-api.fcc.lol",
   "host": "localhost",
-  "port": "3110",
   "author": "fcc",
   "created_on": "Tue Jul 22 00:09:34 UTC 2025"
 }

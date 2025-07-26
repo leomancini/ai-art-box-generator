@@ -1,19 +1,16 @@
 {
-  "name": "ai-art-box-api",
+  "name": "ai-art-box-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node /home/fcc/services/ai-art-box-api/server.js",
-    "dev": "nodemon server.js"
+    "generate-combinations": "node scripts/generate-combinations.js",
+    "generate-images": "node scripts/generate-images.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
-    "path": "^0.12.7",
-    "url": "^0.11.3"
+    "dotenv": "^17.2.0",
+    "openai": "^5.10.1"
   }
 }
-

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-07-22T02:04:46.163Z",
+  "totalPromptsInFile": 216,
+  "offsetUsed": 60,
+  "promptsProcessed": 10,
+  "rangeProcessed": "61-70",
+  "successful": 4,
+  "failed": 6,
+  "isTestRun": true,
+  "testLimit": 10,
+  "results": [
+    {
+      "success": true,
+      "filename": "1-4-0.png",
+      "prompt": "Sunset over a city skyline in the style of space-age NASA poster with a person reading a book"
+    },
+    {
+      "success": true,
+      "filename": "1-4-1.png",
+      "prompt": "Sunset over a city skyline in the style of space-age NASA poster with a person washing dishes at a window"
+    },
+    {
+      "success": true,
+      "filename": "1-4-2.png",
+      "prompt": "Sunset over a city skyline in the style of space-age NASA poster with a person gardening in their backyard"
+    },
+    {
+      "success": true,
+      "filename": "1-4-3.png",
+      "prompt": "Sunset over a city skyline in the style of space-age NASA poster with a person picking apples from a tree"
+    },
+    {
+      "success": false,
+      "error": "Connection error.",
+      "prompt": "Sunset over a city skyline in the style of space-age NASA poster with a person petting their cat at home"
+    },
+    {
+      "success": false,
+      "error": "Connection error.",
+      "prompt": "Sunset over a city skyline in the style of space-age NASA poster with a person riding a bicycle"
+    },
+    {
+      "success": false,
+      "error": "Connection error.",
+      "prompt": "Sunset over a city skyline in the style of film noir cinematography with a person reading a book"
+    },
+    {
+      "success": false,
+      "error": "Connection error.",
+      "prompt": "Sunset over a city skyline in the style of film noir cinematography with a person washing dishes at a window"
+    },
+    {
+      "success": false,
+      "error": "Connection error.",
+      "prompt": "Sunset over a city skyline in the style of film noir cinematography with a person gardening in their backyard"
+    },
+    {
+      "success": false,
+      "error": "Connection error.",
+      "prompt": "Sunset over a city skyline in the style of film noir cinematography with a person picking apples from a tree"
+    }
+  ]
+}

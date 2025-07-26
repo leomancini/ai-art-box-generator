@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-22T01:12:57.261Z",
+  "total": 3,
+  "successful": 3,
+  "failed": 0,
+  "isTestRun": true,
+  "testLimit": 3,
+  "results": [
+    {
+      "success": true,
+      "filename": "0-0-0.png",
+      "prompt": "People on a crowded subway in the style of vintage American travel brochure with a person reading a book"
+    },
+    {
+      "success": true,
+      "filename": "0-0-1.png",
+      "prompt": "People on a crowded subway in the style of vintage American travel brochure with a person washing dishes at a window"
+    },
+    {
+      "success": true,
+      "filename": "0-0-2.png",
+      "prompt": "People on a crowded subway in the style of vintage American travel brochure with a person gardening in their backyard"
+    }
+  ]
+}

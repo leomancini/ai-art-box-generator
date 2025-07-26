@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-22T01:10:15.485Z",
+  "total": 3,
+  "successful": 0,
+  "failed": 3,
+  "isTestRun": true,
+  "testLimit": 3,
+  "results": [
+    {
+      "success": false,
+      "error": "400 Invalid value: '1536x1024'. Supported values are: '1024x1024', '1024x1792', and '1792x1024'.",
+      "prompt": "People on a crowded subway in the style of vintage American travel brochure with a person reading a book"
+    },
+    {
+      "success": false,
+      "error": "400 Invalid value: '1536x1024'. Supported values are: '1024x1024', '1024x1792', and '1792x1024'.",
+      "prompt": "People on a crowded subway in the style of vintage American travel brochure with a person washing dishes at a window"
+    },
+    {
+      "success": false,
+      "error": "400 Invalid value: '1536x1024'. Supported values are: '1024x1024', '1024x1792', and '1792x1024'.",
+      "prompt": "People on a crowded subway in the style of vintage American travel brochure with a person gardening in their backyard"
+    }
+  ]
+}
