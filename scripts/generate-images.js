@@ -13,8 +13,8 @@ const openai = new OpenAI({
 const COMBINATIONS_FILE = "data/combinations-2025-07-22T00-28-27-920Z.txt";
 const OUTPUT_DIR = "generated-images";
 const DELAY_BETWEEN_REQUESTS = 2000; // 2 seconds delay to avoid rate limiting
-const OFFSET_PROMPTS = 64; // Set to skip the first N prompts (useful for resuming generation)
-const LIMIT_PROMPTS = 10; // Set to null or 0 to process all prompts, or a number to limit for testing
+const OFFSET_PROMPTS = 0; // Set to skip the first N prompts (useful for resuming generation)
+const LIMIT_PROMPTS = null; // Set to null or 0 to process all prompts, or a number to limit for testing
 
 // Function to create output directory
 function ensureOutputDirectory() {
