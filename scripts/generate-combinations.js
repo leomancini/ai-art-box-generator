@@ -6,7 +6,7 @@ const slotOptions = [
   [
     "People on a crowded subway",
     "Sunset over a city skyline",
-    "Desert gas station at night",
+    "Blimps flying over the desert at night",
     "Ice cream truck in a snowstorm",
     "People eating at a diner",
     "Lighthouse on a foggy cliff"
