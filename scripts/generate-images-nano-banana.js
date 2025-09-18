@@ -13,9 +13,13 @@ const OUTPUT_DIR = "generated-images";
 const DELAY_BETWEEN_REQUESTS = 1000; // 1 second delay to avoid rate limiting
 const OFFSET_PROMPTS = 0; // Set to skip the first N prompts (useful for resuming generation)
 const LIMIT_PROMPTS = 2; // Set to null or 0 to process all prompts, or a number to limit for testing
-const BASE_IMAGES_DIR = path.join(OUTPUT_DIR, "nano-banana", "base");
-const VARIATIONS_DIR = path.join(OUTPUT_DIR, "nano-banana", "styles");
-const SUBJECT_VARIATIONS_DIR = path.join(OUTPUT_DIR, "nano-banana", "subjects");
+const BASE_IMAGES_DIR = path.join(OUTPUT_DIR, "nano-banana", "0-base");
+const VARIATIONS_DIR = path.join(OUTPUT_DIR, "nano-banana", "1-styles");
+const SUBJECT_VARIATIONS_DIR = path.join(
+  OUTPUT_DIR,
+  "nano-banana",
+  "2-subjects"
+);
 
 // Mode flags
 const CREATE_BASE_IMAGES = false; // Set to true to create base images
