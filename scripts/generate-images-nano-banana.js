@@ -30,7 +30,7 @@ const REGENERATE_SPECIFIC_STYLE_VARIATIONS = []; // Set to [] to generate all va
 // Specific subject variations to regenerate (leave empty array to generate all)
 // Format: ["baseIndex-styleIndex-subjectIndex", "baseIndex-styleIndex-subjectIndex", ...]
 // Example: ["4-1-2", "2-3-0", "0-5-4"] to regenerate only those specific subject variations
-const REGENERATE_SPECIFIC_SUBJECT_VARIATIONS = ["1-2-3"]; // Set to [] to generate all variations
+const REGENERATE_SPECIFIC_SUBJECT_VARIATIONS = []; // Set to [] to generate all variations
 
 // Skip existing subject variations (only generate missing ones)
 const SKIP_EXISTING_SUBJECT_VARIATIONS = true; // Set to false to regenerate all (overwrite existing)
